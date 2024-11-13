@@ -17,7 +17,7 @@
     <header>
           <nav class="navbar">
               <a href="index.html"><img src="eduford_img/logo.png" alt="logo image not found"></a>
-              <div class="nav-links" id="navLink">
+              <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                  <ul>
                     <li><a href="">HOME</a></li>
@@ -206,14 +206,14 @@
 
     <script>
         
-         var navLink = document.getElementById("navLink")
+         var navLinks = document.getElementById("navLinks")
 
          function showMenu() {
-            navLink.style.right = ("0");
+            navLinks.style.right = ("0");
          }
 
          function hideMenu() {
-            navLink.style.right = ("-200px");
+            navLinks.style.right = ("-200px");
          }
 
     </script>
